@@ -1,3 +1,10 @@
+/* Time Complexity, let array size is N
+ *  Worst case: O(N^2)
+ *  Best Case: O(N^2)
+ * 
+ * Space Complexity: O(1)
+ */
+
 class SelectionSort {
     public static int[] selectionSort(int[] array){
         int array_size = array.length;
